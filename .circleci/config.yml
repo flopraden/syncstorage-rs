@@ -30,6 +30,10 @@ commands:
             pip3 install flake8 hawkauthlib konfig pyramid pyramid_hawkauth requests simplejson unittest2 WebTest WSGIProxy2
             # NOTE: Python3.12 requires `--break-system-packages`.
             # This command is run on the circleci/mysql:5.7-ram image, which is running python 3.10
+            echo "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+            which rustc
+            which mysqld || echo "no mysqld"
+            python3 --version
             pip3 install -r requirements.txt
   rust-check:
     steps:
@@ -121,6 +125,10 @@ commands:
           command: |
               # NOTE: Python3.12 requires `--break-system-packages`.
               # This command is run on the circleci/mysql:5.7-ram image, which is running python 3.10
+               echo "2WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+               which rustc
+               which mysqld || echo "no mysqld"
+               python3 --version
                pip3 install -r tools/tokenserver/requirements.txt
                python3 tools/tokenserver/run_tests.py
           environment:
