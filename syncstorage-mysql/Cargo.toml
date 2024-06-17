@@ -14,7 +14,7 @@ slog-scope.workspace=true
 thiserror.workspace=true
 
 async-trait = "0.1.40"
-diesel = { version = "1.4", features = ["mysql", "r2d2"] }
+diesel = { git = "https://github.com/pjenvey/diesel.git", branch="v1.4.8-mysql-ssl-support", features = ["mysql", "r2d2"] }
 diesel_logger = "0.1.1"
 diesel_migrations = { version = "1.4.0", features = ["mysql"] }
 syncserver-common = { path = "../syncserver-common" }
