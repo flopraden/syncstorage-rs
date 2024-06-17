@@ -770,7 +770,7 @@ version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1793935ad14586bf2aa51574a7157932640c345205ccfb2db431846d846e3db7"
 dependencies = [
- "diesel 1.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "diesel",
  "log",
 ]
 
@@ -1713,7 +1713,7 @@ version = "1.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2b4fc84e4af020b837029e017966f86a1c2d5e83e64b589963d5047525995860"
 dependencies = [
- "diesel 1.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "diesel",
 ]
 
 [[package]]
@@ -2806,7 +2806,7 @@ version = "0.15.2"
 dependencies = [
  "backtrace",
  "deadpool",
- "diesel 1.4.8 (git+https://github.com/pjenvey/diesel.git?branch=v1.4.8-mysql-ssl-support)",
+ "diesel",
  "diesel_migrations",
  "futures 0.3.30",
  "http",
@@ -2858,7 +2858,7 @@ dependencies = [
  "async-trait",
  "backtrace",
  "chrono",
- "diesel 1.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "diesel",
  "diesel_migrations",
  "futures 0.3.30",
  "http",
@@ -2877,7 +2877,7 @@ dependencies = [
  "async-trait",
  "backtrace",
  "base64 0.21.7",
- "diesel 1.4.8 (git+https://github.com/pjenvey/diesel.git?branch=v1.4.8-mysql-ssl-support)",
+ "diesel",
  "diesel_logger",
  "diesel_migrations",
  "env_logger 0.10.2",
@@ -3135,7 +3135,7 @@ version = "0.15.2"
 dependencies = [
  "async-trait",
  "backtrace",
- "diesel 1.4.8 (git+https://github.com/pjenvey/diesel.git?branch=v1.4.8-mysql-ssl-support)",
+ "diesel",
  "diesel_logger",
  "diesel_migrations",
  "env_logger 0.10.2",
@@ -3882,9 +3882,9 @@ dependencies = [
 
 [[package]]
 name = "zstd-sys"
-version = "2.0.10+zstd.1.5.6"
+version = "2.0.11+zstd.1.5.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c253a4914af5bafc8fa8c86ee400827e83cf6ec01195ec1f1ed8441bf00d65aa"
+checksum = "75652c55c0b6f3e6f12eb786fe1bc960396bf05a1eb3bf1f3691c3610ac2e6d4"
 dependencies = [
  "cc",
  "pkg-config",

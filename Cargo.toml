@@ -27,6 +27,8 @@ authors = [
 edition = "2021"
 license = "MPL-2.0"
 
+[patch.crates-io]
+diesel = { git = "https://github.com/pjenvey/diesel.git", branch="v1.4.8-mysql-ssl-support", features = ["mysql", "r2d2"] }
 [workspace.dependencies]
 actix-web = "4"
 
